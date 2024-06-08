@@ -1,4 +1,4 @@
-## Jawaban Untuk CASE 1
+## CASE 1
 
 #### Soal 1 Buah apa saja yang dimiliki Andi? (fruitName)
 
@@ -23,3 +23,34 @@
 > Terdapat kesalahan pada data fruits, karena menurut saya 'Id' atau ' fruitId' haruslah bersifat unik dan tidak boleh sama dengan yang lain
 
 ** Source code bisa dilihat di script.js **
+
+---
+
+## CASE 2
+
+#### Soal 5 Buatlah fungsi untuk menghitung total komentar yang ada, termasuk semua balasan komentar. Berdasarkan data di atas, total komentar adalah 7 komentar.
+
+```
+function countComments(comments) {
+  // menghitung komen utama
+  let count = comments.length;
+
+  comments.forEach((comment) => {
+    // menghitung reply
+    if (comment.replies) {
+      count += countComments(comment.replies);
+    }
+  });
+
+  return count;
+}
+
+```
+
+> total comments = 7
+
+---
+
+## CASE 3
+
+#### Soal 6 Buatlah minimal 1 halaman untuk memperkenalkan sebuah UMKM. Desain bebas. Buatlah semenarik mungkin. Boleh dibuat sebagai website ataupun mobile app (bebas pilih). Jika diperlukan, diperbolehkan untuk membuat backend sederhana.

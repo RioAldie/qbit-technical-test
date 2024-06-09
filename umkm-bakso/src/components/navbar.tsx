@@ -72,7 +72,7 @@ const Navbar = () => {
                   aria-labelledby="dropdownLargeButton">
                   <li>
                     <a
-                      href="#"
+                      href="#foods"
                       onClick={() => setDropdown(!dropdown)}
                       className="block px-4 py-2  hover:text-red-600">
                       Bakso
@@ -80,7 +80,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="#foods"
                       onClick={() => setDropdown(!dropdown)}
                       className="block px-4 py-2  hover:text-red-600">
                       Mie Ayam
@@ -88,7 +88,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="#foods"
                       onClick={() => setDropdown(!dropdown)}
                       className="block px-4 py-2  hover:text-red-600">
                       Minuman
@@ -99,10 +99,10 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#services"
                 className="block py-2 px-3 text-black hover:text-red-600"
                 aria-current="page">
-                Lokasi
+                Layanan
               </a>
             </li>
             <li>
@@ -110,7 +110,7 @@ const Navbar = () => {
                 type="button"
                 className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm text-center inline-flex items-center me-2 py-2 px-3 gap-2">
                 <PhoneIcon className="size-4 text-white" />
-                Kontak
+                Order
               </button>
             </li>
           </ul>

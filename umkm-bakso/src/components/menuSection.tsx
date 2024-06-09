@@ -1,4 +1,5 @@
 import CardMenu from './cardMenu';
+import ListFood from './listFood';
 
 const MenuSection = () => {
   return (
@@ -14,23 +15,24 @@ const MenuSection = () => {
       </div>
 
       <div className="flex flex-row justify-around w-full">
-        <CardMenu image="/bakso-img.png" name="Bakso" variant={5} />
+        <CardMenu image="/bakso-img.png" name="Bakso" variant={2} />
         <CardMenu
           image="/mie-ayam-img.png"
           name="Mie Ayam"
-          variant={2}
+          variant={1}
         />
         <CardMenu
           image="/minuman-img-1.png"
           name="Minuman"
-          variant={4}
+          variant={2}
         />
         <CardMenu
           image="/bakso-lengkap-img.png"
           name="Semua"
-          variant={11}
+          variant={5}
         />
       </div>
+      <ListFood />
     </div>
   );
 };

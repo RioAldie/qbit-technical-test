@@ -54,3 +54,4 @@ function countComments(comments) {
 ## CASE 3
 
 #### Soal 6 Buatlah minimal 1 halaman untuk memperkenalkan sebuah UMKM. Desain bebas. Buatlah semenarik mungkin. Boleh dibuat sebagai website ataupun mobile app (bebas pilih). Jika diperlukan, diperbolehkan untuk membuat backend sederhana.
+> Untuk menyelesaikan Case ini saya membuat sebuah website UMKM Bakso untuk memperkenalkan sebuah restoran bakso. website ini saya buat menggunakan NextJs

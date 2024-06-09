@@ -1,6 +1,7 @@
 import CardMenu from '@/components/cardMenu';
 import Hero from '@/components/hero';
 import MenuSection from '@/components/menuSection';
+import Services from '@/components/services';
 import Testimoni from '@/components/testimoni';
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <MenuSection />
       <Testimoni />
+      <Services />
     </main>
   );
 }
